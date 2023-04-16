@@ -515,6 +515,7 @@
     )
   )
 
+
   (junction (at 233.68 69.85) (diameter 0) (color 0 0 0 0)
     (uuid 0f8068e6-9c0b-444e-8300-daad77d32a58)
   )
@@ -1282,7 +1283,7 @@
   (symbol (lib_id "Device:C_Small") (at 240.03 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54b929f2-eb88-4250-ba5f-0826c920b87b)
-    (property "Reference" "C2" (at 242.57 85.7313 0)
+    (property "Reference" "C7" (at 242.57 85.7313 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470 µF" (at 241.3 87.63 0)
@@ -1299,7 +1300,7 @@
     (instances
       (project "alim"
         (path "/9ea535e2-254b-400e-a1b3-21cc38003798"
-          (reference "C2") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -1495,7 +1496,7 @@
   (symbol (lib_id "Device:C_Small") (at 193.04 88.9 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 85bf72da-799e-437a-90f5-278897875d5e)
-    (property "Reference" "C3" (at 190.5 89.5287 0)
+    (property "Reference" "C8" (at 190.5 89.5287 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1µF" (at 191.77 87.63 0)
@@ -1512,7 +1513,7 @@
     (instances
       (project "alim"
         (path "/9ea535e2-254b-400e-a1b3-21cc38003798"
-          (reference "C3") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -1675,7 +1676,7 @@
   (symbol (lib_id "Device:C_Small") (at 250.19 60.96 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d64206e6-4962-4ded-b2a5-875fe1bbc4cf)
-    (property "Reference" "C1" (at 247.65 61.5887 0)
+    (property "Reference" "C6" (at 247.65 61.5887 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22 µF" (at 248.92 59.69 0)
@@ -1692,7 +1693,7 @@
     (instances
       (project "alim"
         (path "/9ea535e2-254b-400e-a1b3-21cc38003798"
-          (reference "C1") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
