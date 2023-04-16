@@ -1,0 +1,6 @@
+Concevoir les balises du projets COHOMA :
+
+* Rendre visible le niveau de batteries de la balise (sur la balise)
+* Rendre visible le niveau de réception WIFI de la balise (sur la balise)
+* Communication infrarouge entre une télécommande et la balise
+* Communication infrarouge entre le rover et la balise dans le but d'allumer la balise après lors de l'éjection.
