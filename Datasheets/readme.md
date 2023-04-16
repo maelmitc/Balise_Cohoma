@@ -1,6 +1,6 @@
 * Battery Management System : https://www.amazon.fr/ZkeeShop-Lithium-Battery-Protection-Discharge/dp/B08F2H2MXG/ref=sr_1_9?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=13EWY0PKGP0J9&keywords=BMS+4s&qid=1680274657&sprefix=bms+4s%2Caps%2C79&sr=8-9
 * Buck / Boost : https://fr.farnell.com/microchip/mic3172ym/ic-switching-reg-1-25a-100khz/dp/2510055
-* Diode (Buck) [1N4148] : https://fr.farnell.com/diodes-inc/1n4148ws-7-f/diodess-commutateur75v0-2wsod323/dp/1843678
+* Diode (Buck) [1N4148] : https://datasheet.lcsc.com/lcsc/1809282109_Diodes-Incorporated-1N4148W-7-F_C83528.pdf
 * Diode Schottky [FSV340AF] : https://fr.farnell.com/onsemi/fsv340af/diode-schottky-aec-q101-40v-do/dp/2824885
 * Condensateur / Inductance : https://www.we-online.com/en
 * Capteur IR TFBS4650 : https://www.vishay.com/docs/84672/tfbs4650.pdf
