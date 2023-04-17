@@ -2057,7 +2057,7 @@
     (property "Value" "BU33SD5WG-TR" (at 48.26 143.51 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Custom:SOT95P280X125-5N" (at 34.29 161.29 0)
+    (property "Footprint" "footprints:SSOP5_ROM" (at 34.29 161.29 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (at 34.29 148.59 0)
