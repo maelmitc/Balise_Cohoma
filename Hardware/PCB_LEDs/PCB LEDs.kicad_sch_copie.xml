@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\Lolo1\Kicad\PCB LEDs\PCB LEDs.kicad_sch_copie.kicad_sch</source>
-    <date>15/04/2023 21:16:05</date>
+    <source>C:\Users\Lolo1\OneDrive\Documents\Github\Balise_Cohoma\Hardware\PCB_LEDs\PCB LEDs.kicad_sch_copie.kicad_sch</source>
+    <date>17/04/2023 16:23:57</date>
     <tool>Eeschema 7.0.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -25,15 +25,15 @@
   </design>
   <components>
     <comp ref="D1">
-      <value>LED_RGBA</value>
-      <footprint>LED_SMD:LED_RGB_1210</footprint>
-      <libsource lib="Device" part="LED_RGBA" description="RGB LED, red/green/blue/anode"/>
+      <value>LED_RGB</value>
+      <footprint>LED_SMD:LED_Avago_PLCC6_3x2.8mm</footprint>
+      <libsource lib="Device" part="LED_RGB" description="RGB LED, 6 pin package"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PCB LEDs.kicad_sch_copie.kicad_sch"/>
-      <property name="ki_description" value="RGB LED, red/green/blue/anode"/>
+      <property name="ki_description" value="RGB LED, 6 pin package"/>
       <property name="ki_keywords" value="LED RGB diode"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>c8150077-467b-4dea-a9d1-df264dbb3cfe</tstamps>
+      <tstamps>d09c27ff-5834-4095-b7ff-161eef18c659</tstamps>
     </comp>
     <comp ref="D2">
       <value>LED_1</value>
@@ -124,59 +124,15 @@
       <tstamps>defa4ccb-7859-4336-9e9a-8a0d147b0963</tstamps>
     </comp>
     <comp ref="J1">
-      <value>SCL</value>
-      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <value>Conn_01x05</value>
+      <footprint>Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PCB LEDs.kicad_sch_copie.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_description" value="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>6ee89550-89df-4e04-8424-f653eecae452</tstamps>
-    </comp>
-    <comp ref="J2">
-      <value>SDA</value>
-      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PCB LEDs.kicad_sch_copie.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>dc345cd6-7f52-4685-9e1c-57c09598f2d9</tstamps>
-    </comp>
-    <comp ref="J3">
-      <value>CLOCK</value>
-      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PCB LEDs.kicad_sch_copie.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>d5f1ec57-c692-4fe5-b9b6-6abc0832eb6d</tstamps>
-    </comp>
-    <comp ref="J4">
-      <value>OUTPUT</value>
-      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PCB LEDs.kicad_sch_copie.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>971c133e-fdb9-4dda-afee-2d4ea255bc30</tstamps>
-    </comp>
-    <comp ref="J5">
-      <value>POWER</value>
-      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PCB LEDs.kicad_sch_copie.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>1981c803-d6c8-4e2c-9b3d-e5bc25d736c1</tstamps>
+      <tstamps>4278a129-0267-4af1-acad-a5e57297078b</tstamps>
     </comp>
     <comp ref="R1">
       <value>100</value>
@@ -269,24 +225,27 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="Connector_Generic" part="Conn_01x02">
-      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
         <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_01x02</field>
+        <field name="Value">Conn_01x05</field>
         <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
         <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="LED_RGBA">
-      <description>RGB LED, red/green/blue/anode</description>
+    <libpart lib="Device" part="LED_RGB">
+      <description>RGB LED, 6 pin package</description>
       <docs>~</docs>
       <footprints>
         <fp>LED*</fp>
@@ -294,15 +253,17 @@
         <fp>LED_THT:*</fp>
       </footprints>
       <fields>
-        <field name="Reference">D</field>
-        <field name="Value">LED_RGBA</field>
+        <field name="Reference">D1</field>
+        <field name="Value">LED_RGB</field>
+        <field name="Footprint">LED_SMD:LED_Avago_PLCC6_3x2.8mm</field>
         <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="RK" type="passive"/>
-        <pin num="2" name="GK" type="passive"/>
-        <pin num="3" name="BK" type="passive"/>
-        <pin num="4" name="A" type="passive"/>
+        <pin num="1" name="RA" type="passive"/>
+        <pin num="2" name="RK" type="passive"/>
+        <pin num="3" name="6" type="passive"/>
+        <pin num="4" name="GK" type="passive"/>
+        <pin num="5" name="BA" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="LED_Small">
@@ -414,23 +375,15 @@
   </libraries>
   <nets>
     <net code="1" name="+5V">
-      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U1" pin="28" pinfunction="VDD" pintype="power_in"/>
     </net>
-    <net code="2" name="EXTERNAL_CLOCK">
-      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="U1" pin="25" pinfunction="EXTCLK" pintype="input"/>
-    </net>
-    <net code="3" name="GND">
+    <net code="2" name="GND">
       <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
       <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
       <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
       <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
-      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
@@ -440,20 +393,24 @@
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="U1" pin="14" pinfunction="VSS" pintype="power_in"/>
     </net>
-    <net code="4" name="Net-(D1-A)">
-      <node ref="D1" pin="4" pinfunction="A" pintype="passive"/>
-      <node ref="U1" pin="6" pinfunction="LED0" pintype="output"/>
-    </net>
-    <net code="5" name="Net-(D1-BK)">
-      <node ref="D1" pin="3" pinfunction="BK" pintype="passive"/>
+    <net code="3" name="Net-(D1-6)">
+      <node ref="D1" pin="3" pinfunction="6" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
     </net>
-    <net code="6" name="Net-(D1-GK)">
-      <node ref="D1" pin="2" pinfunction="GK" pintype="passive"/>
+    <net code="4" name="Net-(D1-BA)">
+      <node ref="D1" pin="5" pinfunction="BA" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="LED2" pintype="output"/>
+    </net>
+    <net code="5" name="Net-(D1-GK-Pad4)">
+      <node ref="D1" pin="4" pinfunction="GK" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
     </net>
+    <net code="6" name="Net-(D1-RA)">
+      <node ref="D1" pin="1" pinfunction="RA" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="LED1" pintype="output"/>
+    </net>
     <net code="7" name="Net-(D1-RK)">
-      <node ref="D1" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="RK" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
     </net>
     <net code="8" name="Net-(D2-A)">
@@ -488,41 +445,42 @@
       <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="16" name="OUTPUT">
-      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    <net code="16" name="Net-(U1-LED0)">
+      <node ref="D1" pin="3" pinfunction="GK" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="LED0" pintype="output"/>
+    </net>
+    <net code="17" name="OUTPUT">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U1" pin="23" pinfunction="~{OE}" pintype="input"/>
     </net>
-    <net code="17" name="SCL">
-      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    <net code="18" name="SCL">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U1" pin="26" pinfunction="SCL" pintype="input"/>
     </net>
-    <net code="18" name="SDA">
-      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    <net code="19" name="SDA">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U1" pin="27" pinfunction="SDA" pintype="bidirectional"/>
     </net>
-    <net code="19" name="unconnected-(U1-A0-Pad1)">
+    <net code="20" name="unconnected-(U1-A0-Pad1)">
       <node ref="U1" pin="1" pinfunction="A0" pintype="input+no_connect"/>
     </net>
-    <net code="20" name="unconnected-(U1-A1-Pad2)">
+    <net code="21" name="unconnected-(U1-A1-Pad2)">
       <node ref="U1" pin="2" pinfunction="A1" pintype="input+no_connect"/>
     </net>
-    <net code="21" name="unconnected-(U1-A2-Pad3)">
+    <net code="22" name="unconnected-(U1-A2-Pad3)">
       <node ref="U1" pin="3" pinfunction="A2" pintype="input+no_connect"/>
     </net>
-    <net code="22" name="unconnected-(U1-A3-Pad4)">
+    <net code="23" name="unconnected-(U1-A3-Pad4)">
       <node ref="U1" pin="4" pinfunction="A3" pintype="input+no_connect"/>
     </net>
-    <net code="23" name="unconnected-(U1-A4-Pad5)">
+    <net code="24" name="unconnected-(U1-A4-Pad5)">
       <node ref="U1" pin="5" pinfunction="A4" pintype="input+no_connect"/>
     </net>
-    <net code="24" name="unconnected-(U1-A5-Pad24)">
+    <net code="25" name="unconnected-(U1-A5-Pad24)">
       <node ref="U1" pin="24" pinfunction="A5" pintype="input+no_connect"/>
     </net>
-    <net code="25" name="unconnected-(U1-LED1-Pad7)">
-      <node ref="U1" pin="7" pinfunction="LED1" pintype="output+no_connect"/>
-    </net>
-    <net code="26" name="unconnected-(U1-LED2-Pad8)">
-      <node ref="U1" pin="8" pinfunction="LED2" pintype="output+no_connect"/>
+    <net code="26" name="unconnected-(U1-EXTCLK-Pad25)">
+      <node ref="U1" pin="25" pinfunction="EXTCLK" pintype="input+no_connect"/>
     </net>
     <net code="27" name="unconnected-(U1-LED3-Pad9)">
       <node ref="U1" pin="9" pinfunction="LED3" pintype="output+no_connect"/>
