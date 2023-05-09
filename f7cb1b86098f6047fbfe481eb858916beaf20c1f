@@ -1,0 +1,332 @@
+[33mcommit ba24f871b92aefbd4e67f8018ca49ede313d94b1[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: maelmitc <129759808+maelmitc@users.noreply.github.com>
+Date:   Tue May 9 05:39:27 2023 -0300
+
+    Test
+
+[33mcommit f7cb1b86098f6047fbfe481eb858916beaf20c1f[m
+Merge: 25a6f3a b5bb342
+Author: deninguy39 <denis.nguyen@ensea.fr>
+Date:   Tue May 9 10:33:04 2023 +0200
+
+    création et assignation de footprint
+
+[33mcommit 25a6f3af51c1b30eb4ba3a29224b41dc6f0315e7[m
+Author: deninguy39 <denis.nguyen@ensea.fr>
+Date:   Tue May 9 10:26:24 2023 +0200
+
+    assignation d'empreintes
+
+[33mcommit b5bb342ba458a661206a270f79dce31d0e85e49d[m
+Author: maelmitc <129759808+maelmitc@users.noreply.github.com>
+Date:   Tue May 9 05:22:30 2023 -0300
+
+    update
+
+[33mcommit 56e8192c43e620d2a383e595dfcb5a302ce1e8d7[m
+Author: maelmitc <129759808+maelmitc@users.noreply.github.com>
+Date:   Tue May 9 05:19:51 2023 -0300
+
+    Footprint Diode Shottky
+
+[33mcommit 061971aad85ee9d8b45c21d6fa553c5e00e57f80[m
+Author: LaurianeTest <lauriane.testuz@ensea.fr>
+Date:   Tue May 9 09:45:03 2023 +0200
+
+    PCB avec titre
+
+[33mcommit 848889cbf522c19f53a22baf411309955dac8bbb[m
+Merge: 78aaf74 8f0b2a6
+Author: deninguy39 <denis.nguyen@ensea.fr>
+Date:   Tue May 9 08:54:45 2023 +0200
+
+    changement du schéma Buck/Boost car erreur
+
+[33mcommit 78aaf74c5fa04643845f449694388418da4f9ee3[m
+Merge: 5bffc26 8fa4e3c
+Author: deninguy39 <denis.nguyen@ensea.fr>
+Date:   Tue May 9 08:52:24 2023 +0200
+
+    changement du schéma Buck/Boost car erreur
+
+[33mcommit 8f0b2a66f908ea9dce8e2a18981530820508508e[m
+Author: maena-c <maena.charbonnier@gmail.com>
+Date:   Tue May 9 08:51:59 2023 +0200
+
+    essai2
+
+[33mcommit 5bffc26c35f27f969838a7947e5cfdd8b8503628[m
+Author: deninguy39 <denis.nguyen@ensea.fr>
+Date:   Tue May 9 08:49:30 2023 +0200
+
+    changement du schéma Buck/Boost car erreur
+
+[33mcommit 8fa4e3cdfa8ebbf63041ae8c98933806a1fabf3b[m
+Author: maena-c <maena.charbonnier@gmail.com>
+Date:   Tue May 9 08:44:42 2023 +0200
+
+    essai
+
+[33mcommit 4c9e3b2af9cf5441990d97e29dbd07356a786bd0[m
+Author: maena-c <maena.charbonnier@gmail.com>
+Date:   Wed May 3 23:47:32 2023 +0200
+
+    m
+
+[33mcommit 777d883f40884057d37741dcd1c8165df7466fc5[m
+Author: maelmitc <129759808+maelmitc@users.noreply.github.com>
+Date:   Tue May 2 12:16:56 2023 -0300
+
+    j'ai corrigé les erreurs dans le pcb
+
+[33mcommit 317cd8041869df76ad7c8782bc1a5d802b5a9dda[m
+Author: Clément Nguyen <denis.nguyen@ensea.fr>
+Date:   Mon May 1 23:57:38 2023 +0200
+
+    pcb presque terminé (3 erreurs)
+
+[33mcommit 41404c42be4a4bd8947e23a383296bf57d7359b2[m
+Author: maelmitc <129759808+maelmitc@users.noreply.github.com>
+Date:   Mon May 1 17:19:55 2023 -0300
+
+    Repush
+
+[33mcommit 8421ade6d2ef7dfca8c366aa679d1a8ee024e639[m
+Author: Clément Nguyen <denis.nguyen@ensea.fr>
+Date:   Mon May 1 22:04:18 2023 +0200
+
+    mise au propre fichier PCB_BuckBoost et début du routage
+
+[33mcommit e633a622e9f52757ff3bb433cdc4d970582de952[m
+Author: maelmitc <129759808+maelmitc@users.noreply.github.com>
+Date:   Mon May 1 16:49:50 2023 -0300
+
+    Update PCB
+
+[33mcommit c4d467d84049810c2412ae0a7b88cf7321162c2e[m
+Author: maelmitc <129759808+maelmitc@users.noreply.github.com>
+Date:   Mon May 1 16:36:19 2023 -0300
+
+    composants ps1 associé
+
+[33mcommit 3dc6242d0a0130e39fe76d39c42d3728d21a925b[m
+Author: nguyen denis <denis@MacBook-Pro-de-Denis.local>
+Date:   Mon May 1 21:19:04 2023 +0200
+
+    renommage des datasheets et assignation d'empreintes du Buck/Boost
+
+[33mcommit 52fb86e9b615b73ac5bedb13e6406970620d05e1[m
+Merge: 55ef23e 3962a94
+Author: maelmitc <129759808+maelmitc@users.noreply.github.com>
+Date:   Mon Apr 17 12:35:29 2023 -0300
+
+    Merge branch 'main' of https://github.com/maelmitc/Balise_Cohoma
+
+[33mcommit 55ef23e7f5c60b987900e9977010c40bbc3541d3[m
+Author: maelmitc <129759808+maelmitc@users.noreply.github.com>
+Date:   Mon Apr 17 12:35:01 2023 -0300
+
+    PPZ m'as aidé
+
+[33mcommit 3962a94b0b2df67f9f23f90bd0b198ba5cd8ec75[m
+Merge: 954a8c6 3edf1ea
+Author: LaurianeTest <lauriane.testuz@ensea.fr>
+Date:   Mon Apr 17 17:33:50 2023 +0200
+
+    Merge branch 'main' of https://github.com/maelmitc/Balise_Cohoma
+
+[33mcommit 954a8c68d19d82a542bd1bf309f595125f0279f0[m
+Author: LaurianeTest <lauriane.testuz@ensea.fr>
+Date:   Mon Apr 17 17:33:39 2023 +0200
+
+    Correction des erreurs après amphi
+
+[33mcommit 3edf1ea392dc94e3ec35da7e0fb39a0ea3499d1d[m
+Author: maena-c <maena.charbonnier@gmail.com>
+Date:   Mon Apr 17 17:28:27 2023 +0200
+
+    PCB IR
+
+[33mcommit e2d70c3e92a662d014d1811835290206937dfe12[m
+Merge: d16e924 cde499b
+Author: maena-c <maena.charbonnier@gmail.com>
+Date:   Mon Apr 17 16:52:09 2023 +0200
+
+    Merge branch 'main' of https://github.com/maelmitc/Balise_Cohoma
+
+[33mcommit d16e92499c75e1ec3d4f9aeb17796896fdda0879[m
+Author: maena-c <maena.charbonnier@gmail.com>
+Date:   Mon Apr 17 16:52:04 2023 +0200
+
+    IR
+
+[33mcommit cde499b238da6458c0d4e3913a82f461aba67786[m
+Author: maelmitc <129759808+maelmitc@users.noreply.github.com>
+Date:   Mon Apr 17 11:13:45 2023 -0300
+
+    Réorganisation
+
+[33mcommit b23e97b59d1f4c3ba9f46f90359ac6ba4e2c68fa[m
+Author: maelmitc <129759808+maelmitc@users.noreply.github.com>
+Date:   Mon Apr 17 10:54:11 2023 -0300
+
+    ouais
+
+[33mcommit 866c1064eeb796951eb216536b514543ced68cc8[m
+Author: maena-c <maena.charbonnier@gmail.com>
+Date:   Mon Apr 17 15:21:01 2023 +0200
+
+    PCB IR (le bon)
+
+[33mcommit 5a9f9bd1b48e3520696e0390641ba5b613d77d62[m
+Author: maena-c <maena.charbonnier@gmail.com>
+Date:   Mon Apr 17 15:18:44 2023 +0200
+
+    PCB IR
+
+[33mcommit b6321ccf3c4482cbfe76b349a5df708348ff35e5[m
+Author: DBXYD <nicolas.papazoglou@ensea.fr>
+Date:   Mon Apr 17 14:14:38 2023 +0200
+
+    pcb revue
+
+[33mcommit 0a3692dbb3e8b1ae254f6b44ca123fe9b39b3a49[m
+Author: maelmitc <129759808+maelmitc@users.noreply.github.com>
+Date:   Mon Apr 17 06:28:29 2023 -0300
+
+    PCB BOOST + RectifIcation FOOTPRINTS
+    
+    Je ne suis toujours pas sur des footprints  surtout pour la diode D1
+
+[33mcommit 0d7fdb90ed29241be62c0631334c3a63b42a3c37[m
+Author: Robin <127773538+RobinSALOT@users.noreply.github.com>
+Date:   Mon Apr 17 09:05:53 2023 +0200
+
+    Complete Software Architecture
+    
+    Beacon Software Architecture in C/Assembly (Including the use of interrupts and flags)
+
+[33mcommit 3ca452518c4f4f109f55f34a989a93d7562e103e[m
+Author: Robin <127773538+RobinSALOT@users.noreply.github.com>
+Date:   Mon Apr 17 09:01:57 2023 +0200
+
+    Delete [CoHoMa] Beacon Software Architecture.drawio
+
+[33mcommit dc9eac40ff115ce1cfc2dd6fcb66da2a2fdc980b[m
+Author: Robin <127773538+RobinSALOT@users.noreply.github.com>
+Date:   Mon Apr 17 09:00:58 2023 +0200
+
+    Add files via upload
+    
+    Software Architecture (C/Assembly)
+
+[33mcommit 3db0c582d672047bba63fd0d20b3d05af4e55876[m
+Author: nguyen denis <denis@MacBook-Pro-de-Denis.local>
+Date:   Sun Apr 16 20:58:44 2023 +0200
+
+    Routage de la partie Boost incomplet car il y a un problème avec les librairies de la diode et du MIC, à reprendre depuis un ordinateur de l'Ensea
+
+[33mcommit 6afacbc6aea3516b14dfa7df29aad7e8f54493e5[m
+Author: LaurianeTest <129660046+LaurianeTest@users.noreply.github.com>
+Date:   Sun Apr 16 19:12:12 2023 +0200
+
+    Delete o
+
+[33mcommit 8fddf0ee3fca3c9edcb763c0d18e9c0c008262f9[m
+Author: LaurianeTest <129660046+LaurianeTest@users.noreply.github.com>
+Date:   Sun Apr 16 19:11:10 2023 +0200
+
+    Add files via upload
+
+[33mcommit 92df46b1182b5e702268456c2d64ba4e663f0915[m
+Author: LaurianeTest <129660046+LaurianeTest@users.noreply.github.com>
+Date:   Sun Apr 16 19:02:35 2023 +0200
+
+    Create o
+
+[33mcommit 7ed9a3845ce95eb0d4a1476d9dc829822faa4af9[m
+Author: LaurianeTest <129660046+LaurianeTest@users.noreply.github.com>
+Date:   Sun Apr 16 19:00:04 2023 +0200
+
+    Add files via upload
+
+[33mcommit 473084f9a3029fe6d2fc77b1b0d9108071b9cd73[m
+Author: maelmitc <129759808+maelmitc@users.noreply.github.com>
+Date:   Sun Apr 16 13:58:32 2023 -0300
+
+    Footprints des diodes à importer
+
+[33mcommit 249583c3e102659b4c05e312006e0ffce437403f[m
+Author: LaurianeTest <129660046+LaurianeTest@users.noreply.github.com>
+Date:   Sun Apr 16 14:55:16 2023 +0200
+
+    Create Cahier des charges
+
+[33mcommit 47c96a19e32ae2cc2adf0094965c7325419b07d7[m
+Author: LaurianeTest <129660046+LaurianeTest@users.noreply.github.com>
+Date:   Sun Apr 16 14:53:09 2023 +0200
+
+    Update readme.md
+
+[33mcommit f325efa9e48391bc04831b2a26728f2cf3196285[m
+Author: maelmitc <129759808+maelmitc@users.noreply.github.com>
+Date:   Sun Apr 16 06:58:25 2023 -0300
+
+    FIN PCB BOOST
+    
+    Normalement jme suis occupé de l'association de tous les composants et je t'ai fait de la place sur la partie basse du PCB pour le buck
+    Hésite pas a modifié la taille ou d'autres truc si ça te convient mieux
+
+[33mcommit 7031263f253f04e50390188e18ce8fd24f95baf1[m
+Author: maelmitc <129759808+maelmitc@users.noreply.github.com>
+Date:   Sun Apr 16 06:24:40 2023 -0300
+
+    PCB Boost
+    
+    J'ai essayer d'avoir le moins le fils longs possible
+
+[33mcommit f2fd21f2b31e83565ea31c2a43b387250d6de428[m
+Author: maelmitc <129759808+maelmitc@users.noreply.github.com>
+Date:   Sun Apr 16 05:17:33 2023 -0300
+
+    Footprint assignée
+    
+    Je suis vraiment pas sur pour la diode Shottky
+
+[33mcommit a386fc700a96ab0211b690b1c712f4a1fc2008d0[m
+Author: maelmitc <129759808+maelmitc@users.noreply.github.com>
+Date:   Sun Apr 16 04:48:19 2023 -0300
+
+    Ajouts des autres fichiers
+
+[33mcommit 0dc3229a4a62c8e3133de081ecae907bc97a2830[m
+Author: maelmitc <129759808+maelmitc@users.noreply.github.com>
+Date:   Sun Apr 16 04:31:17 2023 -0300
+
+    Correction des autres erreurs
+
+[33mcommit 20fde945edfb0e9a136045a4bb54e42fa53ee8ab[m
+Author: maelmitc <129759808+maelmitc@users.noreply.github.com>
+Date:   Sun Apr 16 04:22:10 2023 -0300
+
+    Modifs des conflits
+    
+    Il y avait des éléments qui avaient les mêmes noms dans le buck et dans le boost du coup ça causait des erreurs
+
+[33mcommit 60da43b764beae47d5b91ebdb44cbf8530973fe1[m
+Author: nguyen denis <denis@MacBook-Pro-de-Denis.local>
+Date:   Sat Apr 15 17:11:27 2023 +0200
+
+    schema Kicad des montages Buck et Boost
+
+[33mcommit dadecad78589d38458d1707de1f3be20362e8437[m
+Author: DBXYD <93437482+DBXYD@users.noreply.github.com>
+Date:   Tue Apr 11 12:01:52 2023 +0200
+
+    Added Untitled Diagram.drawio
+
+[33mcommit 0f12b46931c0bd743715af27b8d5e91b08291119[m
+Author: maelmitc <129759808+maelmitc@users.noreply.github.com>
+Date:   Tue Apr 11 06:53:28 2023 -0300
+
+    Initial commit
