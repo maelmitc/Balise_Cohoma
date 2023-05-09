@@ -1,8 +1,4 @@
 (sym_lib_table
   (version 7)
-<<<<<<< HEAD
   (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/custom.pretty/New_Library.kicad_sym")(options "")(descr ""))
-=======
-  (lib (name "Custom")(type "KiCad")(uri "${KIPRJMOD}/Custom.kicad_sym")(options "")(descr ""))
->>>>>>> b5bb342ba458a661206a270f79dce31d0e85e49d
 )
