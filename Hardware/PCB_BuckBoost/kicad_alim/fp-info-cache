@@ -1,4 +1,4 @@
-21461620360844256
+21453204375631640
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2393,6 +2393,13 @@ speaker CUI
 0
 2
 2
+COHOMA Balise
+SOIC127P600X175-8N
+
+
+0
+8
+8
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -51344,6 +51351,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+Custom
+Diode_Shottky
+
+
+0
+2
+2
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -89578,52 +89592,3 @@ varistor
 0
 2
 2
-diode
-DO-214AD_ONS
-
-FSV330AF 
-0
-2
-2
-diode
-DO-214AD_ONS-L
-
-FSV330AF 
-0
-2
-2
-diode
-DO-214AD_ONS-M
-
-FSV330AF 
-0
-2
-2
-diode
-SOD2513X120N
-
-
-0
-2
-2
-diode
-SSOP5_ROM
-
-BD52E42G-TR 
-0
-5
-5
-diode
-SSOP5_ROM-L
-
-BD52E42G-TR 
-0
-5
-5
-diode
-SSOP5_ROM-M
-
-BD52E42G-TR 
-0
-5
-5
