@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\Lolo1\OneDrive\Documents\Github\Balise_Cohoma\Hardware\PCB_LEDs\PCB LEDs.kicad_sch_copie.kicad_sch</source>
-    <date>17/04/2023 16:23:57</date>
+    <date>15/05/2023 18:41:45</date>
     <tool>Eeschema 7.0.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -261,9 +261,10 @@
       <pins>
         <pin num="1" name="RA" type="passive"/>
         <pin num="2" name="RK" type="passive"/>
-        <pin num="3" name="6" type="passive"/>
+        <pin num="3" name="GK" type="passive"/>
         <pin num="4" name="GK" type="passive"/>
         <pin num="5" name="BA" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="LED_Small">
@@ -393,17 +394,17 @@
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="U1" pin="14" pinfunction="VSS" pintype="power_in"/>
     </net>
-    <net code="3" name="Net-(D1-6)">
-      <node ref="D1" pin="3" pinfunction="6" pintype="passive"/>
-      <node ref="R6" pin="1" pintype="passive"/>
-    </net>
-    <net code="4" name="Net-(D1-BA)">
+    <net code="3" name="Net-(D1-BA)">
       <node ref="D1" pin="5" pinfunction="BA" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="LED2" pintype="output"/>
     </net>
-    <net code="5" name="Net-(D1-GK-Pad4)">
+    <net code="4" name="Net-(D1-GK-Pad4)">
       <node ref="D1" pin="4" pinfunction="GK" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(D1-Pad6)">
+      <node ref="D1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
     </net>
     <net code="6" name="Net-(D1-RA)">
       <node ref="D1" pin="1" pinfunction="RA" pintype="passive"/>
