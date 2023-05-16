@@ -2060,7 +2060,7 @@
     (property "Value" "BU33SD5WG-TR" (at 48.26 143.51 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Custom_BUCKBOOST:ssop5 (copy)" (at 34.29 161.29 0)
+    (property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5_HandSoldering" (at 34.29 161.29 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (at 34.29 148.59 0)
