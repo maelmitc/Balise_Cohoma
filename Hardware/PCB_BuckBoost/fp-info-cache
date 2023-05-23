@@ -1,4 +1,4 @@
-21458257533693218
+21454888003138038
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53504,20 +53504,6 @@ Filter
 Filter_Schaffner_FN406
 Ultra Compact EMC Filter (https://www.schaffner.com/products/download/product/datasheet/fn-406-ultra-compact-emc-filter/)
 emi filter
-0
-5
-5
-Footprints_Balise
-Diode_Shottky
-
-
-0
-2
-2
-Footprints_Balise
-PS1
-
-
 0
 5
 5
