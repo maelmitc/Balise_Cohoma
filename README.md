@@ -51,3 +51,5 @@
 
 ### Hardware - PCB Buck-Boost:
 
+[PCB](Hardware/PCB_BuckBoost/pcb_v3/pcb_v3.kicad_pro)
+
