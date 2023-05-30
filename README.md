@@ -6,9 +6,7 @@
 * SALOT Robin
 * TESTUZ Lauriane
 
-## Présentation du projet:
-
-## $${\color{blue}Présentation \space \color{blue}du \space \color{blue}{projet}}$$
+## $${\color{black}Présentation \space \color{black}du \space \color{black}{projet}}$$
 
 
    Ce projet est en collaboration avec des deuxièmes années qui participent au projet Cohoma, pour l'armée de terre. Ce projet
