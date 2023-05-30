@@ -51,6 +51,10 @@
 
 La version finale de mon [PCB](Hardware/PCB_LEDs/PCB LEDs.kicad_sch_copie.kicad_pro).
 
+Ce PCB est composé d'une diode RGB qui montre le niveau de batterie de la balise et de quatre LEDs bleues qui déterminent le niveau de connexion Internet. Des résistances de 100Ω sont ajoutées afin de limiter le courant qui traverse les LEDs. 
+
+En ce qui concerne les LEDs bleues, il n'y a pas de problème, elles s'allument correctement. En revanche, cette partie comporte un principal problème : à cause d'une mauvaise connexion des pins de la LED RGB, on s'est rendu compte que seule la diode verte s'allume, les diodes jaune et rouge ne fonctionnent pas. Il faut prendre garde à ne pas se tromper entre l'anode et la cathode des diodes, pour éviter que l'erreur ne se reproduise. 
+
 ### Hardware - PCB IR :
 
 La version finale de mon [PCB](Hardware/PCB_IR/cohoma.kicad_pro).
@@ -58,6 +62,19 @@ La version finale de mon [PCB](Hardware/PCB_IR/cohoma.kicad_pro).
 ### Hardware - PCB Buck-Boost:
 
 La version finale de notre [PCB](Hardware/PCB_BuckBoost/pcb_v3/pcb_v3.kicad_pro).
+
+Ce PCB est composé d'un régulateur monté en deux modes différents (Buck et boost) et quatre LEDs qui témoignent du bon fonctionnement de l'alimentation. 
+
+Le projet nous a posé plusieurs difficultés : 
+* Repérer sur la datasheet les montages buck et boost qui correspondaient au projet.
+* Choisir des empreintes des condensateurs et des inductances adaptées à la situations (exemple : condensateurs polarisés).
+* Assigner (voire créer) les bonnes empreintes car elles n'étaient pas toujours disponibles sur Kicad.  
+* Agencer les composants afin d'obtenir un PCB le plus petit possible.
+* Placer les composants traversés par une forte tension de manière optimale (ils devaient être proches des "switching regulator").
+* Il fallait imposer un courant de sortie de 100 mA, ce qui n'était possible que si la balise était complète. Or, ce n'était pas le cas, puisque nous n'avions que le PCB. Nous avons donc dû rajouter deux résistances en parallèle à un condensateur polarisé.
+* Choisir une largeur de piste suffisante en fonction du courant qui traversait les différents composants. 
+* Augmenter le nombre de vias car ils ne fonctionnaient pas toujours.
+* Certaines pastilles de cuivres n'étaient pas connectés à la masse, une erreur lors de la conception du PCB sur Kicad.
 
 
 
