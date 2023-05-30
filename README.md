@@ -20,4 +20,11 @@ Projet cohoma
 
 ## Datasheet :
 
-
+* [Battery Management System]  ()
+* [Buck / Boost ]  ()
+* [Diode (Buck) (1N4148)]  ()
+* [Diode Schottky (FSV340AF)]  ()
+* [Capteur IR TFBS4650]  (https://www.vishay.com/docs/84672/tfbs4650.pdf)
+* []  ()
+* []  ()
+* []  ()
