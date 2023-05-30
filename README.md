@@ -8,6 +8,9 @@
 
 ## Présentation du projet:
 
+## $${\color{blue}Présentation \space \color{blue}du \space \color{blue}{projet}}$$
+
+
    Ce projet est en collaboration avec des deuxièmes années qui participent au projet Cohoma, pour l'armée de terre. Ce projet
   est une compétition entre différentes écoles d'ingénieurs. Il consiste en la création d'un robot autonome s'adaptant à tout type de terrains. Ce robot doit lâcher des balises sur son chemin, elles ont pour but de le localiser. C'est ce sur quoi nous avons travaillé. 
    
@@ -46,13 +49,15 @@
 
 ### Hardware - PCB Leds:
 
-La version finale de mon [PCB](Hardware/PCB_BuckBoost/pcb_v3/pcb_v3.kicad_pro).
+La version finale de mon [PCB](Hardware/PCB_LEDs/PCB LEDs.kicad_sch_copie.kicad_pro).
 
-### Hardware - PCB IR:
+### Hardware - PCB IR :
 
-La version finale de mon [PCB](Hardware/PCB_BuckBoost/pcb_v3/pcb_v3.kicad_pro).
+La version finale de mon [PCB](Hardware/PCB_IR/cohoma.kicad_pro).
 
 ### Hardware - PCB Buck-Boost:
 
 La version finale de notre [PCB](Hardware/PCB_BuckBoost/pcb_v3/pcb_v3.kicad_pro).
+
+
 
