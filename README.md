@@ -21,9 +21,9 @@ Projet cohoma
 ## Datasheet :
 
 * [Battery Management System]()
-* [Buck / Boost ]()
-* [Diode (Buck) (1N4148)]()
-* [Diode Schottky (FSV340AF)]()
+* [Buck / Boost ](https://www.farnell.com/datasheets/1999134.pdf)
+* [Diode (Buck) (1N4148)](https://4donline.ihs.com/images/VipMasterIC/IC/DIOD/DIOD-S-A0001754954/DIOD-S-A0001754954-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0)
+* [Diode Schottky (FSV340AF)](https://www.mouser.fr/datasheet/2/308/FSV340AF_D-1810142.pdf)
 * [Capteur IR TFBS4650](https://www.vishay.com/docs/84672/tfbs4650.pdf)
 * [Interface USB/UART(CY7C64225-28PVXCT)](https://www.mouser.fr/datasheet/2/196/CYPR_S_A0003298042_1-3003715.pdf)
 * [Encodeur/Decodeur IrDA MCP2120-I/SL ](https://docs.rs-online.com/4edb/0900766b814ada76.pdf)
