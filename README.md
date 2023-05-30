@@ -42,14 +42,17 @@
 
 ## Déroulement du projet :
 
-### Software:
+### Software :
 
 ### Hardware - PCB Leds:
 
+La version finale de mon [PCB](Hardware/PCB_BuckBoost/pcb_v3/pcb_v3.kicad_pro).
 
 ### Hardware - PCB IR:
 
+La version finale de mon [PCB](Hardware/PCB_BuckBoost/pcb_v3/pcb_v3.kicad_pro).
+
 ### Hardware - PCB Buck-Boost:
 
-[PCB](Hardware/PCB_BuckBoost/pcb_v3/pcb_v3.kicad_pro)
+La version finale de notre [PCB](Hardware/PCB_BuckBoost/pcb_v3/pcb_v3.kicad_pro).
 
