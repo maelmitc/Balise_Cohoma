@@ -1,5 +1,10 @@
 # Balise_Cohoma 
-Projet cohoma
+
+* CHARBONNIER Maëna
+* MITCHEL Maël
+* NGUYEN Denis
+* SALOT Robin
+* TESTUZ Lauriane
 
 ## Présentation du projet:
 
@@ -20,7 +25,6 @@ Projet cohoma
 
 ## Datasheet :
 
-* [Battery Management System]()
 * [Buck / Boost ](https://www.farnell.com/datasheets/1999134.pdf)
 * [Diode (Buck) (1N4148)](https://4donline.ihs.com/images/VipMasterIC/IC/DIOD/DIOD-S-A0001754954/DIOD-S-A0001754954-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0)
 * [Diode Schottky (FSV340AF)](https://www.mouser.fr/datasheet/2/308/FSV340AF_D-1810142.pdf)
@@ -35,3 +39,15 @@ Projet cohoma
 * [Led bleu (niveau de réception) : MP008276]( https://www.farnell.com/datasheets/3497873.pdf)
 * [Led RGB (niveau batterie) : 5988G10313F ](https://www.mouser.fr/datasheet/2/109/C18481B-2944388.pdf)
 * [Driver de LED I2C : PCA9685PW,118 ]( https://www.mouser.fr/datasheet/2/302/PCA9685-1127478.pdf)
+
+## Déroulement du projet :
+
+### Software:
+
+### Hardware - PCB Leds:
+
+
+### Hardware - PCB IR:
+
+### Hardware - PCB Buck-Boost:
+
