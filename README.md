@@ -16,7 +16,7 @@
    
    
    
-## Cahier des charges :
+## $${\color{black}Cahier \space \color{black}des \space \color{black}{charges}}$$
 
 * Rendre visible le niveau de batteries de la balise (sur la balise).
 * Rendre visible le niveau de réception WIFI de la balise (sur la balise).
@@ -24,7 +24,7 @@
 * Communication infrarouge entre le rover et la balise dans le but d'allumer la balise après lors de l'éjection.
 * Alimenter la balise.
 
-## Datasheet :
+## $${\color{black}Datasheet}$$
 
 * [Buck / Boost ](https://www.farnell.com/datasheets/1999134.pdf)
 * [Diode (Buck) (1N4148)](https://4donline.ihs.com/images/VipMasterIC/IC/DIOD/DIOD-S-A0001754954/DIOD-S-A0001754954-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0)
@@ -41,7 +41,7 @@
 * [Led RGB (niveau batterie) : 5988G10313F ](https://www.mouser.fr/datasheet/2/109/C18481B-2944388.pdf)
 * [Driver de LED I2C : PCA9685PW,118 ]( https://www.mouser.fr/datasheet/2/302/PCA9685-1127478.pdf)
 
-## Déroulement du projet :
+## $${\color{black}Déroulement \space \color{black}du \space \color{black}{projet}}$$
 
 ### Software :
 
