@@ -64,6 +64,13 @@ Voici les difficultés rencontrées lors du projet:
 * Rendre le PCB le plus petit possible tout en respectant une contrainte: les deux condensateurs associés au Quartz devianet être aussi proche que possible de ce dernier.
 * 
 
+Ce PCB se compose de plusieurs parties:
+
+#### Récepteur IR:
+Le récepteur IR reçoit un signal provenant d'un émetteur IR. Il renvoie alors RXIR à l'encodeur/décodeur dans le but de (...).
+Afin d'éviter les fluctuations de tensions, il était recommandé par la datshett, lorsque Vs<2.8 V d'utiliser une résistance et un condensateur. Ce n'est ici pas le cas, cependant, afin d'éviter tout risque, une condensateur de 100 nF a tout de même été ajouté.
+
+
 
 
 ### Hardware - PCB Buck-Boost:
