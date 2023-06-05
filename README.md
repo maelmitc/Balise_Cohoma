@@ -74,5 +74,12 @@ Le projet nous a posé plusieurs difficultés :
 * Augmenter le nombre de vias car ils ne fonctionnaient pas toujours.
 * Certaines pastilles de cuivres n'étaient pas connectés à la masse, une erreur lors de la conception du PCB sur Kicad.
 
+## $${\color{black}Impact \space \color{black}environnemental}$$
+
+### $${\color{green}Expliquer \space \color{green}les \space \color{green}{critères} \space \color{green}de \space \color{green}choix \space \color{green}du \space \color{green}mode \space \color{green}d'alimentation \space \color{green}de \space \color{green}votre \space \color{green}{projet}}$$
+
+Notre projet exigeait déjà un cahier des charges précis à respecter. En effet, la plupart des composants, y compris l'alimentation Buck-Boost, étaient imposés. N'ayant que peu de marge de manoeuvre, nous avons porté une attention toute particulière à la taille des PCBs conçus. En effet, ces derniers devaient être les plus petits possibles, afin de ne pas gaspiller des matériaux. De plus, les PCBs ayant été réalisés sur place, leur impact environnemental dû aux transports était minime, les composants étant déjà à l'école.
+
+### $${\color{green}Votre \space \color{green}projet \space \color{green}favorise-t-il \space \color{green}une \space \color{green}utilisation \space \color{green}judicieuse \space \color{green}et \space \color{green}rationnelle \space \color{green}de \space \color{green}l'énergie, \space \color{green}en \space \color{green}minimisant \space \color{green}les \space \color{green}impacts \space \color{green}de \space \color{green}sa \space \color{green}production, \space \color{green}de \space \color{green}sa \space \color{green}distribution \space \color{green}et \space \color{green}de \space \color{green}sa \space \color{green}{consommation?}}$$
 
 
