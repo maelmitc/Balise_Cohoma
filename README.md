@@ -47,12 +47,16 @@
 
 ### Hardware - PCB Leds:
 
-La version finale de mon [PCB](Hardware/PCB_LEDs/PCB LEDs.kicad_sch_copie.kicad_pro).
+La version finale de mon [PCB](Hardware/PCB_LEDs/PCB_LEDs.kicad_sch_copie.kicad_pro).
 
 
 Ce PCB est composé d'une diode RGB qui montre le niveau de batterie de la balise et de quatre LEDs bleues qui déterminent le niveau de connexion Internet. Des résistances de 100Ω sont ajoutées afin de limiter le courant qui traverse les LEDs. 
 
 En ce qui concerne les LEDs bleues, il n'y a pas de problème, elles s'allument correctement. En revanche, cette partie comporte un principal problème : à cause d'une mauvaise connexion des pins de la LED RGB, on s'est rendu compte que seule la diode verte s'allume, les diodes jaune et rouge ne fonctionnent pas. Il faut prendre garde à ne pas se tromper entre l'anode et la cathode des diodes, pour éviter que l'erreur ne se reproduise. 
+
+Le driver de LEDs est alimenté par une tension de 5V. La tension maximum que peuvent recevoir les LEDs est d’environ 3V. Or, puisqu’on a un courant de 25 mA qui doit traverser les LEDs, on en conclut que la résistance qui doit être ajoutée afin de limiter la tension est de 100 ohms. EN ce qui concerne la LED RGB, la diode rouge supporte une tension moins importante que les diodes jaune et verte. Sa résistance doit donc être supérieure à celles des diodes jaune et verte. C’est pourquoi, on ajoute une résistance de 150 ohms.
+
+On ajoute également un connecteur qui permet de faire communiquer le driver de LEDs avec l’extérieur. On a besoin d’une alimentation et d’une masse, mais également besoin d’une sortie SDA (Serial Data Line), d’une sortie SCL (Serial Clock Line) et d’une sortie output enable, qui permet d’activer ou de désactiver les sorties de LEDs, en fonction des besoins.
 
 ### Hardware - PCB IR :
 
