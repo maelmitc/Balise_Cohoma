@@ -58,6 +58,14 @@ En ce qui concerne les LEDs bleues, il n'y a pas de problème, elles s'allument 
 
 La version finale de mon [PCB](Hardware/PCB_IR/cohoma.kicad_pro).
 
+Voici les difficultés rencontrées lors du projet:
+* Trouver les schematics correspondants au projet (pour plusieurs composants, elle n'existait pas sur Kicad: il a donc été nécéssaire de les trouvées, les téléchargées, puis les importées sur Kicad).
+* De même pour les empreintes de certains composants, il fallait alors trouver une empreinte très proche, ou bien créer l'empreinte dans certains cas.
+* Rendre le PCB le plus petit possible tout en respectant une contrainte: les deux condensateurs associés au Quartz devianet être aussi proche que possible de ce dernier.
+* 
+
+
+
 ### Hardware - PCB Buck-Boost:
 
 La version finale de notre [PCB](Hardware/PCB_BuckBoost/pcb_v3/pcb_v3.kicad_pro).
