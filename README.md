@@ -49,6 +49,7 @@
 
 La version finale de mon [PCB](Hardware/PCB_LEDs/PCB LEDs.kicad_sch_copie.kicad_pro).
 
+
 Ce PCB est composé d'une diode RGB qui montre le niveau de batterie de la balise et de quatre LEDs bleues qui déterminent le niveau de connexion Internet. Des résistances de 100Ω sont ajoutées afin de limiter le courant qui traverse les LEDs. 
 
 En ce qui concerne les LEDs bleues, il n'y a pas de problème, elles s'allument correctement. En revanche, cette partie comporte un principal problème : à cause d'une mauvaise connexion des pins de la LED RGB, on s'est rendu compte que seule la diode verte s'allume, les diodes jaune et rouge ne fonctionnent pas. Il faut prendre garde à ne pas se tromper entre l'anode et la cathode des diodes, pour éviter que l'erreur ne se reproduise. 
@@ -80,6 +81,11 @@ Le projet nous a posé plusieurs difficultés :
 
 Notre projet exigeait déjà un cahier des charges précis à respecter. En effet, la plupart des composants, y compris l'alimentation Buck-Boost, étaient imposés. N'ayant que peu de marge de manoeuvre, nous avons porté une attention toute particulière à la taille des PCBs conçus. En effet, ces derniers devaient être les plus petits possibles, afin de ne pas gaspiller des matériaux. De plus, les PCBs ayant été réalisés sur place, leur impact environnemental dû aux transports était minime, les composants étant déjà à l'école.
 
-### $${\color{green}Votre \space \color{green}projet \space \color{green}favorise-t-il \space \color{green}une \space \color{green}utilisation \space \color{green}judicieuse \space \color{green}et \space \color{green}rationnelle \space \color{green}de \space \color{green}l'énergie, \space \color{green}en \space \color{green}minimisant \space \color{green}les \space \color{green}impacts \space \color{green}de \space \color{green}sa \space \color{green}production, \space \color{green}de \space \color{green}sa \space \color{green}distribution \space \color{green}et \space \color{green}de \space \color{green}sa \space \color{green}{consommation?}}$$
+### $${\color{green}Votre \space \color{green}projet \space \color{green}favorise-t-il \space \color{green}une \space \color{green}utilisation \space \color{green}judicieuse \space \color{green}et \space \color{green}rationnelle \space \color{green}de \space \color{green}l'énergie, \space \color{green}en \space \color{green}minimisant \space \color{green}{les}}$$
+
+### $${\color{green}impacts \space \color{green}de \space \color{green}sa \space \color{green}production, \space \color{green}de \space \color{green}sa \space \color{green}distribution \space \color{green}et \space \color{green}de \space \color{green}sa \space \color{green}{consommation?}}$$
+
+Les LEDs présentes sur le projet ne s’allument que lorsque le module qui leur est associé est sollicité. Ainsi il n'y a pas d'énergie utilisée inutilement. De plus, nous nous sommes assurés qu’aucun composant ne consomme plus d’énergie que celle nécessaire à son bon fonctionnement.
 
 
+Cependant, si l’on s’intéresse au projet de manière plus large, son impact est plus important que ce que nous avons décrit précédemment. En effet, plusieurs écoles sont en compétition dans la réalisation de ce projet pour ne sélectionner que le meilleur. L’impact aurait été moins important si une seule équipe d’ingénieurs professionnels s’en était chargée. Néanmoins, cette compétition entre écoles encourage chacun des participants à réaliser le projet le plus efficace et propre possible dans l’espoir d’être sélectionnés.
