@@ -60,6 +60,7 @@ La version finale de mon [PCB](Hardware/PCB_IR/cohoma.kicad_pro).
 
 Voici les difficultés rencontrées lors du projet:
 * Trouver les schematics correspondants au projet (pour plusieurs composants, elle n'existait pas sur Kicad: il a donc été nécéssaire de les trouvées, les téléchargées, puis les importées sur Kicad).
+* La datasheet du quartz ne permettait pas de connaître le schématci associé, il fallait éffectué d'autres recherches.
 * De même pour les empreintes de certains composants, il fallait alors trouver une empreinte très proche, ou bien créer l'empreinte dans certains cas.
 * Rendre le PCB le plus petit possible tout en respectant une contrainte: les deux condensateurs associés au Quartz devianet être aussi proche que possible de ce dernier.
 * 
