@@ -72,10 +72,12 @@ Afin d'éviter les fluctuations de tensions, il était recommandé par la datshe
 
 #### Encodeur/Décodeur:
 Dans le cadre de ce projet, ce composant a été utilisé uniquement comme un décodeur. Il reçoit RXIR, le décode et renvoie UART_RX au microcontrolleur (via le connecteur).
+En effet, pour être compris par le microcontrolleur, le signal doit être en UART.
 
 
 
 
+Les "BAUD" permettent de modifier la vitesse de transmission. Ils sont tous les trois mis à la masse ici, ce qui équivaut à les mettre à 0.
 ### Hardware - PCB Buck-Boost:
 
 La version finale de notre [PCB](Hardware/PCB_BuckBoost/pcb_v3/pcb_v3.kicad_pro).
