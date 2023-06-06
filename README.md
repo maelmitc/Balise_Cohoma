@@ -85,6 +85,9 @@ En effet, pour être compris par le microcontrolleur, le signal doit être en UA
 
 
 Les "BAUD" permettent de modifier la vitesse de transmission. Ils sont tous les trois mis à la masse ici, ce qui équivaut à les mettre à 0.
+
+#### Quartz:
+Le quartz sert d'horloge. Il est ici accompagné de deux condensateurs qui permettent de "lisser" afin que l'horloge soit  vraiment régulière.
 ### Hardware - PCB Buck-Boost:
 
 La version finale de notre [PCB](Hardware/PCB_BuckBoost/pcb_v3/pcb_v3.kicad_pro).
