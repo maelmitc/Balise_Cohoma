@@ -45,6 +45,8 @@
 
 ### Software :
 
+L'objectif du logiciel développé est le traitement des données du routeur et de la batterie et la commande du driver LED. Le code a été développé en C. Le code est implémenté sur un processeur STM32 L412KBT6. En fonction des données recçues, le logiciel commande les LED, en particulier en fonction du niveau de batterie disponible. Le driver LED, relié à quatre Blue LEDs et une LED RGB est connecté en I2C avec le processeur STM32.
+
 ### Hardware - PCB Leds:
 
 La version finale de mon [PCB](Hardware/PCB_LEDs/PCB_LEDs.kicad_sch_copie.kicad_pro).
