@@ -51,7 +51,7 @@ L'objectif du logiciel développé est le traitement des données du routeur et 
 
 La version finale de mon [PCB](Hardware/PCB_LEDs/PCB_LEDs.kicad_sch_copie.kicad_pro).
 
-$${\color{black}Composants \space \color{black}utilisés \space \color{black}:}$$
+Composants utilisés : 
 
 Type de produit | Empreinte | Nombre 
 --- | --- | ---
@@ -65,13 +65,9 @@ Connecteur 01x05 | JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical | 1
 Utilité des composants :
 
 Driver de LEDs : pilote les LEDs.
-
 LEDs bleues : montrent le niveau de connexion Wifi sur la balise. Plus le nombre de LEDs allumées est important, plus la connexion internet est bonne. 
-
 LED RGB : montre le niveau de batterie de la balise. Si la LED est verte, la balise est entièrement chargée ; jaune, à moitié chargée ; rouge, déchargée.
-
 Résistances : permettent de limiter le courant qui traverse les LEDs 
-
 Connecteur : permet de faire communiquer le driver de LEDs avec l’extérieur. Il est composé de cinq sorties : une d'alimentation et une de masse, mais également d'une sortie SDA (Serial Data Line), d'une sortie SCL (Serial Clock Line) et d'une sortie output enable, qui permet d’activer ou de désactiver les sorties de LEDs, en fonction des besoins.
 
 Explication de la valeur des résistances : 
