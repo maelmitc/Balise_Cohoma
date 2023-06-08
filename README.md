@@ -109,7 +109,7 @@ Les "BAUD" permettent de modifier la vitesse de transmission. Ils sont tous les 
 #### Quartz:
 Le quartz sert d'horloge. Il est ici accompagné de deux condensateurs qui permettent de "lisser" afin que l'horloge soit  vraiment régulière.
 
-#### Difficultés rencontrées lors du projet:
+#### Difficultés rencontrées lors de la fabrication de ce PCB :
 * Trouver les schematics correspondants au projet (pour plusieurs composants, elle n'existait pas sur Kicad: il a donc été nécéssaire de les trouvées, les téléchargées, puis les importées sur Kicad).
 * La datasheet du quartz ne permettait pas de connaître le schématci associé, il fallait éffectué d'autres recherches.
 * De même pour les empreintes de certains composants, il fallait alors trouver une empreinte très proche, ou bien créer l'empreinte dans certains cas.
@@ -139,7 +139,7 @@ Connecteur 01x02 | Coonector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical | 4
 
 Ce PCB est composé d'un régulateur monté en deux modes différents (Buck et boost) et quatre LEDs qui témoignent du bon fonctionnement de l'alimentation. 
 
-#### Difficultés rencontrées lors du projet : 
+#### Difficultés rencontrées lors de la fabrication de ce PCB : 
 * Repérer sur la datasheet les montages buck et boost qui correspondaient au projet.
 * Choisir des empreintes des condensateurs et des inductances adaptées à la situations (exemple : condensateurs polarisés).
 * Assigner (voire créer) les bonnes empreintes car elles n'étaient pas toujours disponibles sur Kicad.  
