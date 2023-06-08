@@ -51,7 +51,7 @@ L'objectif du logiciel développé est le traitement des données du routeur et 
 
 La version finale de mon [PCB](Hardware/PCB_LEDs/PCB_LEDs.kicad_sch_copie.kicad_pro).
 
-{\color{purple}Composants \space \color{purle}utilisés \space \color{purple}:}
+$${\color{black}Composants \space \color{black}utilisés \space \color{black}:}$$
 
 Type de produit | Empreinte | Nombre 
 --- | --- | ---
