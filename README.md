@@ -65,17 +65,21 @@ Connecteur 01x05 | JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical | 1
 Utilité des composants :
 
 Driver de LEDs : pilote les LEDs.
-LEDs bleues : montrent le niveau de connexion Wifi sur la balise. Plus le nombre de LEDs allumées est important, plus la connexion internet est bonne. 
+
+LEDs bleues : montrent le niveau de connexion Wifi sur la balise. Plus le nombre de LEDs allumées est important, plus la connexion internet est bonne.
+ 
 LED RGB : montre le niveau de batterie de la balise. Si la LED est verte, la balise est entièrement chargée ; jaune, à moitié chargée ; rouge, déchargée.
-Résistances : permettent de limiter le courant qui traverse les LEDs 
+
+Résistances : permettent de limiter le courant qui traverse les LEDs.
+ 
 Connecteur : permet de faire communiquer le driver de LEDs avec l’extérieur. Il est composé de cinq sorties : une d'alimentation et une de masse, mais également d'une sortie SDA (Serial Data Line), d'une sortie SCL (Serial Clock Line) et d'une sortie output enable, qui permet d’activer ou de désactiver les sorties de LEDs, en fonction des besoins.
 
-Explication de la valeur des résistances : 
 
+Explication de la valeur des résistances : 
 Le driver de LEDs est alimenté par une tension de 5V. La tension maximum que peuvent recevoir les LEDs est d’environ 3V. Or, puisqu’on a un courant de 25 mA qui doit traverser les LEDs, on en conclut que la résistance qui doit être ajoutée afin de limiter la tension est de 100Ω. EN ce qui concerne la LED RGB, la diode rouge supporte une tension moins importante que les diodes jaune et verte. Sa résistance doit donc être supérieure à celles des diodes jaune et verte. C’est pourquoi, on ajoute une résistance de 150Ω.
 
-Problèmes rencontrés lors de la fabrication de ce PCB : 
 
+Problèmes rencontrés lors de la fabrication de ce PCB : 
 En ce qui concerne les LEDs bleues, il n'y a pas de problème, elles s'allument correctement. En revanche, cette partie comporte un principal problème : à cause d'une mauvaise connexion des pins de la LED RGB, on s'est rendu compte que seule la diode verte s'allume, les diodes jaune et rouge ne fonctionnent pas. Il faut prendre garde à ne pas se tromper entre l'anode et la cathode des diodes, pour éviter que l'erreur ne se reproduise. 
 
 ### Hardware - PCB IR :
