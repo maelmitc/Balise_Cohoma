@@ -1,4 +1,4 @@
-# Balise_Cohoma 
+# $${\color{black}Balise \space \color{black}Cohoma}$$
 
 * CHARBONNIER Maëna
 * MITCHEL Maël
@@ -9,10 +9,10 @@
 ## $${\color{black}Présentation \space \color{black}du \space \color{black}{projet}}$$
 
 
-   Ce projet est en collaboration avec des deuxièmes années qui participent au projet Cohoma, pour l'armée de terre. Ce projet
-  est une compétition entre différentes écoles d'ingénieurs. Il consiste en la création d'un robot autonome s'adaptant à tout type de terrains. Ce robot doit lâcher des balises sur son chemin, elles ont pour but de le localiser. C'est ce sur quoi nous avons travaillé. 
+Ce projet est en collaboration avec des deuxièmes années qui participent au projet Cohoma, pour l'armée de terre. Ce projet
+est une compétition entre différentes écoles d'ingénieurs. Il consiste en la création d'un robot autonome s'adaptant à tout type de terrains. Ce robot doit lâcher des balises sur son chemin, elles ont pour but de le localiser. C'est ce sur quoi nous avons travaillé. 
    
-   Une LED RGB est utilisée afin de montrer le niveau de batterie de la balise (vert: pleine charge, jaune: à moitié chargée et rouge: déchargée). Quatre LEDs bleues sont également utilisées afin de déterminer le niveau de connexion Internet de la balise. Il y a également un capteur infrarouge qui permet de communiquer avec le rover afin d'allumer la batterie. Enfin, on utilise un convertisseur Buck-Boost, qui est une alimentation à découplage qui convertit une tension continue en une autre tension continue de plus faible ou de plus grande valeur, mais de polarité inverse.
+Une LED RGB est utilisée afin de montrer le niveau de batterie de la balise (vert: pleine charge, jaune: à moitié chargée et rouge: déchargée). Quatre LEDs bleues sont également utilisées afin de déterminer le niveau de connexion Internet de la balise. Il y a également un capteur infrarouge qui permet de communiquer avec le rover afin d'allumer la batterie. Enfin, on utilise un convertisseur Buck-Boost, qui est une alimentation à découplage qui convertit une tension continue en une autre tension continue de plus faible ou de plus grande valeur, mais de polarité inverse.
    
    
    
@@ -51,14 +51,36 @@ L'objectif du logiciel développé est le traitement des données du routeur et 
 
 La version finale de mon [PCB](Hardware/PCB_LEDs/PCB_LEDs.kicad_sch_copie.kicad_pro).
 
+Composants utilisés :
 
-Ce PCB est composé d'une diode RGB qui montre le niveau de batterie de la balise et de quatre LEDs bleues qui déterminent le niveau de connexion Internet. Des résistances de 100Ω sont ajoutées afin de limiter le courant qui traverse les LEDs. 
+Type de produit | Empreinte | Nombre 
+--- | --- | ---
+Driver de LEDs | PCA9685PW | 1
+LED bleue | LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder | 4 
+LED RGB | LED_Avago_PLCC6_3x2.8mm | 1
+Résistance 100Ω | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | 6
+Résistance 150Ω | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | 1
+Connecteur 01x05 | JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical | 1
+
+Utilité des composants :
+
+Driver de LEDs : pilote les LEDs.
+
+LEDs bleues : montrent le niveau de connexion Wifi sur la balise. Plus le nombre de LEDs allumées est important, plus la connexion internet est bonne. 
+
+LED RGB : montre le niveau de batterie de la balise. Si la LED est verte, la balise est entièrement chargée ; jaune, à moitié chargée ; rouge, déchargée.
+
+Résistances : permettent de limiter le courant qui traverse les LEDs 
+
+Connecteur : permet de faire communiquer le driver de LEDs avec l’extérieur. Il est composé de cinq sorties : une d'alimentation et une de masse, mais également d'une sortie SDA (Serial Data Line), d'une sortie SCL (Serial Clock Line) et d'une sortie output enable, qui permet d’activer ou de désactiver les sorties de LEDs, en fonction des besoins.
+
+Explication de la valeur des résistances : 
+
+Le driver de LEDs est alimenté par une tension de 5V. La tension maximum que peuvent recevoir les LEDs est d’environ 3V. Or, puisqu’on a un courant de 25 mA qui doit traverser les LEDs, on en conclut que la résistance qui doit être ajoutée afin de limiter la tension est de 100Ω. EN ce qui concerne la LED RGB, la diode rouge supporte une tension moins importante que les diodes jaune et verte. Sa résistance doit donc être supérieure à celles des diodes jaune et verte. C’est pourquoi, on ajoute une résistance de 150Ω.
+
+Problèmes rencontrés lors de la fabrication de ce PCB : 
 
 En ce qui concerne les LEDs bleues, il n'y a pas de problème, elles s'allument correctement. En revanche, cette partie comporte un principal problème : à cause d'une mauvaise connexion des pins de la LED RGB, on s'est rendu compte que seule la diode verte s'allume, les diodes jaune et rouge ne fonctionnent pas. Il faut prendre garde à ne pas se tromper entre l'anode et la cathode des diodes, pour éviter que l'erreur ne se reproduise. 
-
-Le driver de LEDs est alimenté par une tension de 5V. La tension maximum que peuvent recevoir les LEDs est d’environ 3V. Or, puisqu’on a un courant de 25 mA qui doit traverser les LEDs, on en conclut que la résistance qui doit être ajoutée afin de limiter la tension est de 100 ohms. EN ce qui concerne la LED RGB, la diode rouge supporte une tension moins importante que les diodes jaune et verte. Sa résistance doit donc être supérieure à celles des diodes jaune et verte. C’est pourquoi, on ajoute une résistance de 150 ohms.
-
-On ajoute également un connecteur qui permet de faire communiquer le driver de LEDs avec l’extérieur. On a besoin d’une alimentation et d’une masse, mais également besoin d’une sortie SDA (Serial Data Line), d’une sortie SCL (Serial Clock Line) et d’une sortie output enable, qui permet d’activer ou de désactiver les sorties de LEDs, en fonction des besoins.
 
 ### Hardware - PCB IR :
 
