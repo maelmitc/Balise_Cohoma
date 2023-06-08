@@ -59,7 +59,7 @@ Driver de LEDs | Package_STO:TSSOP-28_4.4x9.7mm_P0.65mm | 1
 LED bleue | LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder | 4 
 LED RGB | LED_SMD:LED_Avago_PLCC6_3x2.8mm | 1
 Résistance (100Ω et 150Ω)| Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | 7
-Connecteur 01x05 | Coonector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical | 1
+Connecteur 01x05 | Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical | 1
 
 #### Utilité des composants :
 
@@ -119,9 +119,27 @@ Le quartz sert d'horloge. Il est ici accompagné de deux condensateurs qui perme
 
 La version finale de notre [PCB](Hardware/PCB_BuckBoost/pcb_v3/pcb_v3.kicad_pro).
 
+#### Composants utilisés : 
+
+Type de produit | Empreinte | Nombre 
+--- | --- | ---
+Diode | Diode_SMD:D_SOD-123F | 1
+Diode | Diode_SMD:D_SOD-323F | 1
+Diode | diode:SS0P5_ROM | 1
+? | Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm | 2
+Condensateur découplé (330 uF)| Capacitor_SMD:CP_Elec_10x10.5 | 2
+Condensateur découplé (100 uF)| Capacitor_SMD:CP_Elec_6.3x7.7 | 1
+Condensateur découplé (22 uF)| Capacitor_SMD:CP_Elec_5x5.4 | 1
+Condensateur (2.2 uF, 1 uF et 0.47 nF)| Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder | 6
+LED bleue | LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder | 4 
+Inductance (100 uH)| Inductor_SMD:L_Wuerth_WE-PD-Typ-LS | 2
+Résistance | Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | 11
+? | Footprints_Balise:DO-214AD_ONS | 2
+Connecteur 01x02 | Coonector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical | 4
+
 Ce PCB est composé d'un régulateur monté en deux modes différents (Buck et boost) et quatre LEDs qui témoignent du bon fonctionnement de l'alimentation. 
 
-Le projet nous a posé plusieurs difficultés : 
+#### Difficultés rencontrées lors du projet : 
 * Repérer sur la datasheet les montages buck et boost qui correspondaient au projet.
 * Choisir des empreintes des condensateurs et des inductances adaptées à la situations (exemple : condensateurs polarisés).
 * Assigner (voire créer) les bonnes empreintes car elles n'étaient pas toujours disponibles sur Kicad.  
