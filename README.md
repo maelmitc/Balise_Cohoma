@@ -134,15 +134,8 @@ Le quartz sert d'horloge. Il est ici accompagné de deux condensateurs qui perme
 * Trouver les schematics correspondants au projet (pour plusieurs composants, elles n'existaient pas sur Kicad: il a donc été nécéssaire de les trouver, les télécharger, puis les importer sur Kicad).
 * La datasheet du quartz ne permettait pas de connaître la schematic associée, il fallait effectuer d'autres recherches.
 * De même pour les empreintes de certains composants, il fallait alors trouver une empreinte très proche, ou bien créer l'empreinte dans certains cas.
-<<<<<<< Updated upstream
 * Rendre le PCB le plus petit possible tout en respectant une contrainte: les deux condensateurs associés au Quartz devaient être aussi proche que possible de ce dernier.
-=======
-<<<<<<< HEAD
-* Rendre le PCB le plus petit possible tout en respectant une contrainte: les deux condensateurs associés au Quartz devaient être aussi proches que possible de ce dernier.
-=======
-* Rendre le PCB le plus petit possible tout en respectant une contrainte: les deux condensateurs associés au Quartz devaient être aussi proche que possible de ce dernier.
->>>>>>> 2d2fd5397c81f541c27b2d386ee7e7313e678f14
->>>>>>> Stashed changes
+
 
 ### Hardware - PCB Buck-Boost:
 
