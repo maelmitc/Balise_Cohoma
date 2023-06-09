@@ -135,6 +135,7 @@ Le quartz sert d'horloge. Il est ici accompagné de deux condensateurs qui perme
 * La datasheet du quartz ne permettait pas de connaître la schematic associée, il fallait effectuer d'autres recherches.
 * De même pour les empreintes de certains composants, il fallait alors trouver une empreinte très proche, ou bien créer l'empreinte dans certains cas.
 * Rendre le PCB le plus petit possible tout en respectant une contrainte: les deux condensateurs associés au Quartz devaient être aussi proche que possible de ce dernier.
+* Problèmes rencontrés lors de la soudure liés à une mauvaise empreinte ( qui a été corrigée sur la dernière version du PCB).
 
 
 ### Hardware - PCB Buck-Boost:
@@ -221,7 +222,6 @@ Cependant, si l’on s’intéresse au projet de manière plus large, son impact
 
 Nous avons manqué de temps pour atteindre tous nos objectifs. Cependant, si nous pouvions donner des conseils à nos successeurs, nous dirions de :
  
-* Faire des groupes plus équitables entre le <em>hardware</em> et le <em>software</em>.
 * Bien lire les datasheet des composants, de façon à choisir des valeurs de résistances ou de condensateurs appropriées, par exemple. 
 * Faire particulièrement attention aux empreintes, quitte à en créer, de façon à n'avoir aucun problème lors de la soudure.
 * Faire particulièrement attention au sens des diodes, ne pas intervertir l'anode et la cathode, dans le cas ou le PCB en comporte.
