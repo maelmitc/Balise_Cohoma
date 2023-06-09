@@ -154,7 +154,7 @@ LED bleue | LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder | 4
 Inductance (100 uH)| Inductor_SMD:L_Wuerth_WE-PD-Typ-LS | 2
 Résistance | Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | 11
 Diode Schottky | Footprints_Balise:Diode_Schottky (empreinte créée)| 2
-Connecteur 01x02 | Coonector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical | 4
+Connecteur 01x02 | Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical | 4
 
 
 #### Utilité des composants
