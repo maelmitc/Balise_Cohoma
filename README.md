@@ -131,7 +131,7 @@ Les "BAUD" permettent de modifier la vitesse de transmission. Ils sont tous les 
 Le quartz sert d'horloge. Il est ici accompagné de deux condensateurs qui permettent de "lisser" afin que l'horloge soit vraiment régulière.
 
 #### Difficultés rencontrées lors de la fabrication de ce PCB :
-* Trouver les schematics correspondants au projet (pour plusieurs composants, elles n'existaient pas sur Kicad: il a donc été nécéssaire de les trouver, les télécharger, puis les importer sur Kicad).
+* Trouver les schematics correspondants au projet (pour plusieurs composants, elles n'existaient pas sur Kicad: il a donc été nécessaire de les trouver, les télécharger, puis les importer sur Kicad).
 * La datasheet du quartz ne permettait pas de connaître la schematic associée, il fallait effectuer d'autres recherches.
 * De même pour les empreintes de certains composants, il fallait alors trouver une empreinte très proche, ou bien créer l'empreinte dans certains cas.
 * Rendre le PCB le plus petit possible tout en respectant une contrainte: les deux condensateurs associés au Quartz devaient être aussi proche que possible de ce dernier.
