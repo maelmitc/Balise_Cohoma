@@ -49,10 +49,10 @@ L'objectif du logiciel développé est le traitement des données du routeur et 
 
 #### Batterie
 Selon le niveau de batterie calculé, 1 à 4 Blue LEDs sont allumées
-* > 75% : 4 LEDs activées
-* > 50% : 3 LEDs activées
-* > 25% : 2 LEDs activées
-* > 10% : 1 LED activée
+* 75% : 4 LEDs activées
+* 50% : 3 LEDs activées
+* 25% : 2 LEDs activées
+* 10% : 1 LED activée
 On utilise une connexion I²C pour lier le STM32 au <em>driver</em> LED.
 
 #### Routeur/IR
@@ -63,6 +63,7 @@ En fonctionnement normal, on utilise 3 couleurs : rouge (signal faible), vert (s
 * Longue lecture des fiches techniques des composants utilisés
 * Recherche et étude d'un algorithme pour déterminer le niveau de batterie (SOC Algorithm)
 * Lien entre la partie <em>hardware</em> et <em>software</em>, en particulier le lien avec la batterie/le niveau de charge
+
 D'un point de vue personnel, je juge avoir sous-estimé la quantité de travail à fournir dans la partie <em>software</em>, trop importante pour une seule personne.
 
 ### Hardware - PCB Leds:
