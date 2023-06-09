@@ -118,7 +118,7 @@ Connecteur 01x03 | Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Horizontal 
 Ce PCB se compose de plusieurs parties:
 
 #### Récepteur IR:
-Le récepteur IR reçoit un signal provenant d'un émetteur IR. Il renvoie alors RXIR à l'encodeur/décodeur dans le but de (...).
+Le récepteur IR reçoit un signal provenant d'un émetteur IR. Il renvoie alors RXIR à l'encodeur/décodeur dans le but que le signal soit décodé.
 Afin d'éviter les fluctuations de tensions, il était recommandé par la datasheet, lorsque Vs<2.8 V d'utiliser une résistance et un condensateur. Ce n'est ici pas le cas, cependant, afin d'éviter tout risque, un condensateur de 100 nF a tout de même été ajouté.
 
 #### Encodeur/Décodeur:
@@ -135,7 +135,7 @@ Le quartz sert d'horloge. Il est ici accompagné de deux condensateurs qui perme
 * Trouver les schematics correspondants au projet (pour plusieurs composants, elle n'existait pas sur Kicad: il a donc été nécéssaire de les trouvées, les téléchargées, puis les importées sur Kicad).
 * La datasheet du quartz ne permettait pas de connaître le schématci associé, il fallait éffectué d'autres recherches.
 * De même pour les empreintes de certains composants, il fallait alors trouver une empreinte très proche, ou bien créer l'empreinte dans certains cas.
-* Rendre le PCB le plus petit possible tout en respectant une contrainte: les deux condensateurs associés au Quartz devianet être aussi proche que possible de ce dernier.
+* Rendre le PCB le plus petit possible tout en respectant une contrainte: les deux condensateurs associés au Quartz devaient être aussi proche que possible de ce dernier.
 
 ### Hardware - PCB Buck-Boost:
 
