@@ -137,7 +137,6 @@ Résistance | Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | 11
 Diode Schottky | Footprints_Balise:Diode_Schottky (empreinte créée)| 2
 Connecteur 01x02 | Coonector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical | 4
 
-Ce PCB est composé d'un régulateur monté en deux modes différents (Buck et boost) 
 
 #### Utilité des composants
 * LEDs bleues : témoignent du bon fonctionnement de l'alimentation
