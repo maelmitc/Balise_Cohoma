@@ -123,24 +123,30 @@ La version finale de notre [PCB](Hardware/PCB_BuckBoost/pcb_v3/pcb_v3.kicad_pro)
 
 Type de produit | Empreinte | Nombre 
 --- | --- | ---
-Diode | Diode_SMD:D_SOD-123F | 1
-Diode | Diode_SMD:D_SOD-323F | 1
-Diode | diode:SS0P5_ROM | 1
-? | Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm | 2
-Condensateur découplé (330 uF)| Capacitor_SMD:CP_Elec_10x10.5 | 2
-Condensateur découplé (100 uF)| Capacitor_SMD:CP_Elec_6.3x7.7 | 1
-Condensateur découplé (22 uF)| Capacitor_SMD:CP_Elec_5x5.4 | 1
+Diode| Diode_SMD:D_SOD-123F | 1
+Diode| Diode_SMD:D_SOD-323F | 1
+PS1| Footprints_Balise:PS1 | 1
+Régulateur Buck/Boost | Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm | 2
+Condensateur polarisé (330 uF)| Capacitor_SMD:CP_Elec_10x10.5 | 2
+Condensateur polarisé (100 uF)| Capacitor_SMD:CP_Elec_6.3x7.7 | 1
+Condensateur polarisé (22 uF)| Capacitor_SMD:CP_Elec_5x5.4 | 1
 Condensateur (2.2 uF, 1 uF et 0.47 nF)| Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder | 6
 LED bleue | LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder | 4 
 Inductance (100 uH)| Inductor_SMD:L_Wuerth_WE-PD-Typ-LS | 2
 Résistance | Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | 11
-? | Footprints_Balise:DO-214AD_ONS | 2
+Diode Schottky | Footprints_Balise:Diode_Schottky (empreinte créée)| 2
 Connecteur 01x02 | Coonector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical | 4
 
-Ce PCB est composé d'un régulateur monté en deux modes différents (Buck et boost) et quatre LEDs qui témoignent du bon fonctionnement de l'alimentation. 
+Ce PCB est composé d'un régulateur monté en deux modes différents (Buck et boost) 
+
+#### Utilité des composants
+* LEDs bleues : témoignent du bon fonctionnement de l'alimentation
+* Diodes / Diode Schottky : permettent les différents états de commutation du régulateur
+* Régulateur à découpage : gère le découpage (via le rapport cyclique) de la tension en fonction des différents états. Les régulateurs sont au nombre de deux, chacun est monté différemment, permettant le passage au mode Buck ou Boost.
+* PS1 : régule la tension
 
 #### Choix des composants     
-Les composants (autre que ceux imposés) ont été sélectionnés en fonction des datasheets des montages Buck et Boost et des composants passifs disponibles à l'ENSEA. Pour ce qui est des condensateurs, des condensateurs classiques ou polarisés ont été choisi en fonction de la valeur de leurs capacités.
+Les composants (autre que ceux imposés) ont été sélectionnés en fonction des datasheets des montages Buck et Boost et des composants passifs disponibles à l'ENSEA. Pour ce qui est des condensateurs, des condensateurs classiques ou polarisés ont été choisi en fonction de la valeur des capacités indiquées sur la datasheet (au dessus de 10 uF, on choisit un condensateur polarisé).
 
 #### Difficultés rencontrées lors de la fabrication de ce PCB : 
 * Repérer sur la datasheet les montages buck et boost qui correspondaient au projet.
