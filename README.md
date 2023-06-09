@@ -8,7 +8,6 @@
 
 ## $${\color{black}Présentation \space \color{black}du \space \color{black}{projet}}$$
 
-
 Ce projet est en collaboration avec des deuxièmes années qui participent au projet Cohoma, pour l'armée de terre. Ce projet
 est une compétition entre différentes écoles d'ingénieurs. Il consiste en la création d'un robot autonome s'adaptant à tout type de terrains. Ce robot doit lâcher des balises sur son chemin, elles ont pour but de le localiser. C'est ce sur quoi nous avons travaillé. 
    
@@ -129,13 +128,21 @@ En effet, pour être compris par le microcontrôleur, le signal doit être en UA
 Les "BAUD" permettent de modifier la vitesse de transmission. Ils sont tous les trois mis à la masse ici, ce qui équivaut à les mettre à 0.
 
 #### Quartz:
-Le quartz sert d'horloge. Il est ici accompagné de deux condensateurs qui permettent de "lisser" afin que l'horloge soit  vraiment régulière.
+Le quartz sert d'horloge. Il est ici accompagné de deux condensateurs qui permettent de "lisser" afin que l'horloge soit vraiment régulière.
 
 #### Difficultés rencontrées lors de la fabrication de ce PCB :
-* Trouver les schematics correspondants au projet (pour plusieurs composants, elle n'existait pas sur Kicad: il a donc été nécéssaire de les trouvées, les téléchargées, puis les importées sur Kicad).
-* La datasheet du quartz ne permettait pas de connaître le schématci associé, il fallait éffectué d'autres recherches.
+* Trouver les schematics correspondants au projet (pour plusieurs composants, elles n'existaient pas sur Kicad: il a donc été nécéssaire de les trouver, les télécharger, puis les importer sur Kicad).
+* La datasheet du quartz ne permettait pas de connaître la schematic associée, il fallait effectuer d'autres recherches.
 * De même pour les empreintes de certains composants, il fallait alors trouver une empreinte très proche, ou bien créer l'empreinte dans certains cas.
+<<<<<<< Updated upstream
 * Rendre le PCB le plus petit possible tout en respectant une contrainte: les deux condensateurs associés au Quartz devaient être aussi proche que possible de ce dernier.
+=======
+<<<<<<< HEAD
+* Rendre le PCB le plus petit possible tout en respectant une contrainte: les deux condensateurs associés au Quartz devaient être aussi proches que possible de ce dernier.
+=======
+* Rendre le PCB le plus petit possible tout en respectant une contrainte: les deux condensateurs associés au Quartz devaient être aussi proche que possible de ce dernier.
+>>>>>>> 2d2fd5397c81f541c27b2d386ee7e7313e678f14
+>>>>>>> Stashed changes
 
 ### Hardware - PCB Buck-Boost:
 
@@ -186,7 +193,7 @@ Filtrage : Le régulateur de découplage utilise également des condensateurs po
 * Choisir des empreintes des condensateurs et des inductances adaptées à la situations (exemple : condensateurs polarisés).
 * Assigner (voire créer) les bonnes empreintes car elles n'étaient pas toujours disponibles sur Kicad.  
 * Agencer les composants afin d'obtenir un PCB le plus petit possible.
-* Placer les composants traversés par une forte tension de manière optimale (ils devaient être proches des "switching regulator").
+* Placer les composants traversés par une forte tension de manière optimale (ils devaient être proches des régulateurs à découpage).
 * Il fallait imposer un courant de sortie de 100 mA, ce qui n'était possible que si la balise était complète. Or, ce n'était pas le cas, puisque nous n'avions que le PCB. Nous avons donc dû rajouter deux résistances en parallèle à un condensateur polarisé.
 * Choisir une largeur de piste suffisante en fonction du courant qui traversait les différents composants. 
 * Augmenter le nombre de vias car ils ne fonctionnaient pas toujours.
@@ -196,12 +203,7 @@ Filtrage : Le régulateur de découplage utilise également des condensateurs po
 
 ### $${\color{green}Expliquer \space \color{green}les \space \color{green}{critères} \space \color{green}de \space \color{green}choix \space \color{green}du \space \color{green}mode \space \color{green}d'alimentation \space \color{green}de \space \color{green}votre \space \color{green}{projet}}$$
 
-Notre projet exigeait déjà un cahier des charges précis à respecter. En effet, la plupart des composants, y compris l'alimentation Buck-Boost, étaient imposés. Cependant, on peut tout de même se demander pourquoi c'est une alimentation à découpage qui à été choisie plutôt qu'une alimentation linéaire. En effet, l'alimentation à découpage possède un rendement bien plus élevé (et consomme donc moins d'énergie) que l'amplificateur linéaire grâce à son fonctionnement "alterné" entre différents états de communtations. N'ayant eu que peu de marge de manoeuvre vis à vis de ce montage, nous avons porté une attention toute particulière à la taille des PCBs conçus. En effet, ces derniers devaient être les plus petits possibles, afin de ne pas gaspiller de matériaux. De plus, les PCBs ayant été réalisés sur place, leur impact environnemental dû aux transports était minime, les composants étant déjà à l'école.
-
-### $${\color{green}Votre \space \color{green}projet \space \color{green}favorise-t-il \space \color{green}une \space \color{green}utilisation \space \color{green}judicieuse \space \color{green}et \space \color{green}rationnelle \space \color{green}de \space \color{green}l'énergie, \space \color{green}en \space \color{green}minimisant \space \color{green}{les}}$$
-
-### $${\color{green}impacts \space \color{green}de \space \color{green}sa \space \color{green}production, \space \color{green}de \space \color{green}sa \space \color{green}distribution \space \color{green}et \space \color{green}de \space \color{green}sa \space \color{green}{consommation?}}$$
-L'alimentation du projet, bien qu'imposée permet une utilisation responsable de l'énergie grâce à son rendement élevé. En effet les régulateurs à découplage ont un bon rendement, surtout par rapport aux régulateurs linéaires. Cette meilleure efficacité énergétique est principalement due à leur principe de fonctionnement différent. Dans un régulateur linéaire, la tension excédentaire est dissipée sous forme de chaleur par un transistor de régulation. Cela signifie que la différence de tension entre l'entrée et la sortie du régulateur est convertie en chaleur, ce qui entraîne une perte d'énergie importante. Par conséquent, les régulateurs linéaires ont généralement une efficacité relativement faible, en particulier lorsque la différence de tension entre l'entrée et la sortie est importante. 
+Notre projet exigeait déjà un cahier des charges précis à respecter. En effet, la plupart des composants, y compris l'alimentation Buck-Boost, étaient imposés. Cependant, on peut tout de même se demander pourquoi c'est une alimentation à découpage qui à été choisie plutôt qu'une alimentation linéaire. En effet, l'alimentation à découpage possède un rendement bien plus élevé (et consomme donc moins d'énergie) que l'amplificateur linéaire grâce à son fonctionnement "alterné" entre différents états de commutations. Cette meilleure efficacité énergétique est principalement due à leur principe de fonctionnement différent. Dans un régulateur linéaire, la tension excédentaire est dissipée sous forme de chaleur par un transistor de régulation. Cela signifie que la différence de tension entre l'entrée et la sortie du régulateur est convertie en chaleur, ce qui entraîne une perte d'énergie importante. Par conséquent, les régulateurs linéaires ont généralement une efficacité relativement faible, en particulier lorsque la différence de tension entre l'entrée et la sortie est importante. 
 
 En revanche, les régulateurs de découplage utilisent des composants électroniques commutés, tels que des transistors MOSFET et des inductances, pour réguler la tension de sortie. Ces composants commutent rapidement entre les états "on" et "off", ce qui permet de minimiser les pertes d'énergie. Lorsque le transistor est en état "on", il présente une résistance très faible, ce qui réduit les pertes de puissance. Lorsque le transistor est en état "off", l'inductance stocke l'énergie et la restitue lors de l'état "on" suivant, ce qui permet de maintenir une tension de sortie constante.En conséquence, les régulateurs de découplage ont une efficacité énergétique beaucoup plus élevée que les régulateurs linéaires. Une plus grande quantité d'énergie est transférée du côté de l'entrée vers le côté de la sortie sans être dissipée sous forme de chaleur. De plus, en raison du rapport cyclique, le transformateur à l'intérieur de l'alimentation peut être très petit, réalisant ainsi la miniaturisation de la taille de l'alimentation tout en permettant également l'utilisation normale de l'alimentation. 
 
@@ -211,8 +213,23 @@ Il est à noter que dans certains cas (dans d'autres projets par exemple), l'uti
 * Meilleure performance en terme de réduction de bruit et des interférences électromagnétique, 
 * Moins complexe
 * Réglage plus fin de la sortie.
+
+### $${\color{green}Votre \space \color{green}projet \space \color{green}favorise-t-il \space \color{green}une \space \color{green}utilisation \space \color{green}judicieuse \space \color{green}et \space \color{green}rationnelle \space \color{green}de \space \color{green}l'énergie, \space \color{green}en \space \color{green}minimisant \space \color{green}{les}}$$
+
+### $${\color{green}impacts \space \color{green}de \space \color{green}sa \space \color{green}production, \space \color{green}de \space \color{green}sa \space \color{green}distribution \space \color{green}et \space \color{green}de \space \color{green}sa \space \color{green}{consommation?}}$$
+ 
+La plupart des composants étant imposés, nous avons eu peu de marge de manoeuvre. Nous avons donc porté une attention toute particulière à la taille des PCBs conçus. En effet, ces derniers devaient être les plus petits possibles, afin de ne pas gaspiller de matériaux. De plus, les PCBs ayant été réalisés sur place, leur impact environnemental dû aux transports était minime, les composants étant déjà à l'école.
  
 Pour ce qui est des LEDs présentes sur le projet, elles ne s’allument que lorsque le module qui leur est associé est sollicité. Ainsi il n'y a pas d'énergie utilisée inutilement. De plus, nous nous sommes assurés qu’aucun composant ne consomme plus d’énergie que celle nécessaire à son bon fonctionnement.
 
 Cependant, si l’on s’intéresse au projet de manière plus large, son impact est plus important que ce que nous avons décrit précédemment. En effet, plusieurs écoles sont en compétition dans la réalisation de ce projet pour ne sélectionner que le meilleur. L’impact aurait été moins important si une seule équipe d’ingénieurs professionnels s’en était chargée. Néanmoins, cette compétition entre écoles encourage chacun des participants à réaliser le projet le plus efficace et propre possible dans l’espoir d’être sélectionnés.
 
+## $${\color{black}Conclusion}$$
+
+Nous avons manqué de temps pour atteindre tous nos objectifs. Cependant, si nous pouvions donner des conseils à nos successeurs, nous dirions de :
+ 
+* Faire des groupes plus équitables entre le <em>hardware</em> et le <em>software</em>.
+* Bien lire les datasheet des composants, de façon à choisir des valeurs de résistances ou de condensateurs appropriées, par exemple. 
+* Faire particulièrement attention aux empreintes, quitte à en créer, de façon à n'avoir aucun problème lors de la soudure.
+* Faire particulièrement attention au sens des diodes, ne pas intervertir l'anode et la cathode, dans le cas ou le PCB en comporte.
+* Faire attention à la largeur des pistes, en fonction du courant qui traverse les différents composants.
