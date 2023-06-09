@@ -45,7 +45,25 @@ Une LED RGB est utilisée afin de montrer le niveau de batterie de la balise (ve
 
 ### Software :
 
-L'objectif du logiciel développé est le traitement des données du routeur et de la batterie et la commande du driver LED. Le code a été développé en C. Le code est implémenté sur un processeur STM32 L412KBT6. En fonction des données reçues, le logiciel commande les LEDs, en particulier en fonction du niveau de batterie disponible. Le driver de LEDs, relié à quatre LEDs bleues et une LED RGB est connecté en I2C avec le processeur STM32.
+L'objectif du logiciel développé est le traitement des données du routeur et de la batterie et la commande du <em>driver</em> LED. Le code a été développé en C. Le code est implémenté sur un processeur STM32 L412KBT6. En fonction des données reçues, le logiciel commande les LEDs, en particulier en fonction du niveau de batterie disponible. Le driver de LEDs, relié à quatre LEDs bleues et une LED RGB est connecté en I2C avec le processeur STM32.
+
+#### Batterie
+Selon le niveau de batterie calculé, 1 à 4 Blue LEDs sont allumées
+* > 75% : 4 LEDs activées
+* > 50% : 3 LEDs activées
+* > 25% : 2 LEDs activées
+* > 10% : 1 LED activée
+On utilise une connexion I²C pour lier le STM32 au <em>driver</em> LED.
+
+#### Routeur/IR
+On utilise une LED RGB pour témoigner de la qualité de la connexion.
+En fonctionnement normal, on utilise 3 couleurs : rouge (signal faible), vert (signal moyen), bleu (signal fort).
+
+#### Problèmes rencontrés lors du développement :
+* Longue lecture des fiches techniques des composants utilisés
+* Recherche et étude d'un algorithme pour déterminer le niveau de batterie (SOC Algorithm)
+* Lien entre la partie <em>hardware</em> et <em>software</em>, en particulier le lien avec la batterie/le niveau de charge
+D'un point de vue personnel, je juge avoir sous-estimé la quantité de travail à fournir dans la partie <em>software</em>, trop importante pour une seule personne.
 
 ### Hardware - PCB Leds:
 
