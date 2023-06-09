@@ -47,6 +47,9 @@ Une LED RGB est utilisée afin de montrer le niveau de batterie de la balise (ve
 
 L'objectif du logiciel développé est le traitement des données du routeur et de la batterie et la commande du <em>driver</em> LED. Le code a été développé en C. Le code est implémenté sur un processeur STM32 L412KBT6. En fonction des données reçues, le logiciel commande les LEDs, en particulier en fonction du niveau de batterie disponible. Le driver de LEDs, relié à quatre LEDs bleues et une LED RGB est connecté en I2C avec le processeur STM32.
 
+Architecture <em>software</em> [Architecture](Software/[CoHoMa] Beacon Software Architecture.drawio) (originale, modifiée depuis)
+Code [Code](Software/CHMBeaconB.zip)
+
 #### Batterie
 Selon le niveau de batterie calculé, 1 à 4 Blue LEDs sont allumées
 * 75% : 4 LEDs activées
