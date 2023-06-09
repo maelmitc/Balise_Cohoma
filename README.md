@@ -87,8 +87,8 @@ La version finale de mon [PCB](Hardware/PCB_IR/cohoma.kicad_pro).
 
 Type de produit | Empreinte | Nombre 
 --- | --- | ---
-Récepteur Infrarouge | Package_SO:SOIC-14_3.9x8.7mm_P1.27mm | 1
-Encodeur | Package_SO:TSOP753TT (empreinte que nous avons créée) | 1
+Décodeur | Package_SO:SOIC-14_3.9x8.7mm_P1.27mm | 1
+Récepteur Infrarouge | Package_SO:TSOP753TT (empreinte que nous avons créée) | 1
 Quartz | Crystal:Crystal_SMD_7050-2Pin_7.0x5.0mm | 1
 Condensateur (20 pF et 100 nF)| Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder | 3
 Connecteur 01x03 | Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Horizontal | 1 
